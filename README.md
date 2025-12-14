@@ -1,3 +1,7 @@
+# NEW
+📥 Update mới : [Rophim No Ads](https://github.com/firetofficial/Rophim-No-Ads)
+
+--- 
 # Bypass Rophim VIP
 
 ![Rophim VIP Banner](https://img.shields.io/badge/Rophim-VIP%20Free-brightgreen?style=for-the-badge&logo=javascript)
