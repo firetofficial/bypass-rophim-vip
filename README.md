@@ -167,7 +167,7 @@ Thật sự tiếc khi Rophim đã dừng hoạt động. Nói không ngoa, đâ
 
 Phát hiện bug này cũng hoàn toàn tình cờ — vọc vạch lúc rảnh, kiểu "ơ, cái gì đây?", rồi thấy bất ngờ vì một hệ thống chỉnh chu đến vậy lại dính lỗ hổng khá cơ bản trong security architecture. Không ai hoàn hảo cả, và đó cũng là lý do ngành security tồn tại, phải không nào? 🙂
 
-Dù sao, cũng coi như một chương đã khép lại. Chúc team Rophim (nếu có đọc được) sẽ mang những bài học này vào những dự án tiếp theo, và chúc anh em dev ngoài kia luôn nhớ: **"Never trust the client."** ✌️
+Dù sao, cũng coi như một chương đã khép lại. Cảm ơn team Rophim vì mang đến trải nghiệm, định kiến mới với trang phim "lậu", và chúc anh em dev ngoài kia luôn nhớ: **"Never trust the client."** ✌️
 
 ---
 
