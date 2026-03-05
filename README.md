@@ -1,72 +1,186 @@
-# NEW
-📥 Update mới : [Rophim No Ads](https://github.com/firetofficial/Rophim-No-Ads)
+<p align="center">
+  <img src="https://img.shields.io/badge/Status-Archived-lightgrey?style=for-the-badge" alt="Archived" />
+  <img src="https://img.shields.io/badge/Rophim-RIP%20🕊️-black?style=for-the-badge" alt="Rophim RIP" />
+  <img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="License" />
+</p>
 
---- 
-# Bypass Rophim VIP
+<h1 align="center">🔓 Bypass Rophim VIP — Source Code Disclosure</h1>
 
-![Rophim VIP Banner](https://img.shields.io/badge/Rophim-VIP%20Free-brightgreen?style=for-the-badge&logo=javascript)
-![Version](https://img.shields.io/badge/Version-1.2-blue?style=flat-square)
+<p align="center">
+  <b>Client-Side Privilege Escalation via XHR Response Tampering</b><br/>
+  <sub>Một bài phân tích kỹ thuật về lỗ hổng phân quyền phía client trên hệ thống Rophim.</sub>
+</p>
 
-
-**Bypass Rophim VIP** là công cụ mạnh mẽ giúp bạn tận hưởng trải nghiệm VIP trên Rophim hoàn toàn miễn phí! Không quảng cáo, coin không giới hạn. Tất cả được gói gọn trong một userscript dễ cài đặt qua Tampermonkey.
-
-
-<img width="1870" height="861" alt="image" src="https://github.com/user-attachments/assets/41329834-26f8-4c81-bac1-8c7b18e11853" />
-
-
-## 🚀 Tính năng
-- **Mở khóa VIP**: Truy cập toàn bộ nội dung VIP trên Rophim.
-- **Coin không giới hạn**: Sử dụng 999,999,999 coin để xem phim thoải mái.
-- **Không quảng cáo**: Tận hưởng trải nghiệm mượt mà, không bị gián đoạn.
-
-## 📥 Hướng dẫn cài đặt
-1. **Cài đặt Tampermonkey**:
-   - [Tải Tampermonkey cho PC](https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)  
-   - [Tải Tampermonkey cho Mobile](https://chromewebstore.google.com/detail/tampermonkey-legacy/lcmhijbkigalmkeommnijlpobloojgfn)
-
-2. **Cài đặt script Bypass Rophim**:
-   - Nhấn vào nút dưới đây để tự động cài đặt script:  
-     [![Cài đặt Script](https://img.shields.io/badge/Cài%20đặt-Script-blue?style=for-the-badge)](https://site2s.com/bypassrophim)
-
-3. **Đăng nhập Rophim**:
-   - Truy cập [Rophim](https://www.rophim.me/), đăng nhập tài khoản của bạn.
-   - Reload trang và tận hưởng đặc quyền VIP! 🎉
-     
-[![Site2S](https://github.com/user-attachments/assets/c47b64ac-b7a1-47f5-b281-cd6d708c8bc2)](https://site2s.com/ref/firet)
-## 🎬 Video hướng dẫn
-Cảm ơn bạn **Kong** đã quay video hướng dẫn chi tiết — nếu bạn thích xem theo video, có thể tham khảo tại:
-
-[![Video hướng dẫn bởi Kong](https://img.youtube.com/vi/N7mXQpCnbsM/0.jpg)](https://www.youtube.com/watch?v=N7mXQpCnbsM)
-
+<p align="center">
+  <img width="90%" alt="Rophim VIP Bypass Demo" src="https://github.com/user-attachments/assets/41329834-26f8-4c81-bac1-8c7b18e11853" />
+</p>
 
 ---
 
-## ⚠️ Giải thích Kỹ thuật & Cam kết (Quan trọng)
+## 📖 Bối cảnh
 
-Để giải đáp các thắc mắc về mã nguồn, tôi cam kết dự án này phi lợi nhuận và phục vụ mục đích học tập.
+**Rophim** — một trong những nền tảng xem phim "không chính thống" từng vận hành bài bản và chỉnh chu bậc nhất mà mình từng thấy. Từ UI/UX, hệ thống VIP, cho đến cơ chế coin — mọi thứ được xây dựng rất nghiêm túc, gần như cảm giác đang dùng một sản phẩm thương mại thực thụ.
 
-1.  **Về Mã hóa Mã nguồn (Code Obfuscation):**
-    * Mã nguồn được mã hóa **không phải để ẩn chứa mã độc**. Mục đích là **bảo vệ công sức** và **ngăn chặn việc re-up, sửa đổi tác giả** nhằm trục lợi hoặc nhận vơ công cụ miễn phí này.
-    * Do quá trình mã hóa, đôi khi trình duyệt hoặc phần mềm diệt virus có thể đưa ra cảnh báo. Nếu không an tâm, bạn nên bỏ qua script.
-2.  **Về Cơ chế Tắt từ xa (Anti-Abuse Switch):**
-    * Script có tích hợp một cơ chế kiểm tra đơn giản để **ngăn chặn việc lạm dụng, mua bán** hoặc sử dụng cho mục đích thương mại.
-    * Đây là cơ chế để tác giả có thể **vô hiệu hóa nhanh chóng** script nếu có yêu cầu chính thức từ Rophim hoặc xảy ra tranh chấp.
-    * **CAM KẾT:** Cơ chế này **KHÔNG** thu thập bất kỳ dữ liệu cá nhân nào của người dùng.
+Thế nhưng, trong quá trình vọc vạch lúc rảnh, mình vô tình phát hiện một **lỗ hổng nghiêm trọng** trong cách hệ thống xử lý phân quyền người dùng — và thật sự khá bất ngờ khi một hệ thống chỉnh chu đến vậy lại dính "quả" này :V
+
+> Rophim hiện đã **ngừng hoạt động**, nên mình quyết định public toàn bộ source code gốc (chưa mã hóa) cùng bài phân tích kỹ thuật chi tiết, vì mục đích **nghiên cứu và học tập**.
 
 ---
-## ⚠️ Lưu ý quan trọng
-- **Credit**: Vui lòng ghi rõ nguồn nếu bạn sử dụng hoặc chỉnh sửa code này.
-- **Khuyến cáo**: Sử dụng công cụ này một cách có trách nhiệm, chỉ để học tập và thử nghiệm.
 
-## 📜 Miễn trừ trách nhiệm
-Dự án này được tạo ra với mục đích nghiên cứu và học tập. Nếu có bất kỳ vấn đề nào liên quan đến bản quyền hoặc vi phạm, tôi sẵn sàng hợp tác để gỡ bỏ nội dung khi được yêu cầu. Vui lòng liên hệ qua Telegram: **[@firet_official](https://t.me/firet_official)**.
+## 🐛 Phân tích lỗ hổng
 
-**Lưu ý**: Tuyệt đối cấm mua bán hoặc sử dụng code cho mục đích thương mại.
+### Tên gọi kỹ thuật
+**Client-Side Privilege Escalation via XHR Response Tampering**
+> Dịch nôm na: Leo quyền phía client bằng cách can thiệp vào response (phản hồi) của các request XHR.
+
+### Vấn đề cốt lõi
+
+Hệ thống Rophim **tin tưởng hoàn toàn vào dữ liệu trả về từ API** để quyết định quyền hạn của người dùng trên giao diện. Nói cách khác, việc kiểm tra "anh là VIP hay không?" diễn ra hoàn toàn ở phía trình duyệt (client-side) — thay vì được xác thực lại ở phía server mỗi khi thực hiện hành động cần quyền.
+
+Điều này giống như việc bảo vệ nhà hàng hỏi khách *"Anh có phải VIP không?"* — rồi **tin luôn** câu trả lời mà không cần kiểm tra danh sách. 🤷
+
+### Cơ chế khai thác
+
+Lỗ hổng được khai thác bằng kỹ thuật **XHR Hooking** (hay còn gọi là **Monkey Patching**) — một kỹ thuật can thiệp vào cơ chế gửi/nhận request HTTP của trình duyệt:
+
+1. **Hook (gắn câu)** vào `XMLHttpRequest.prototype.open` và `XMLHttpRequest.prototype.send` — tức là "đứng giữa" mọi request mà trang web gửi đi.
+2. **Lắng nghe** (intercept) response từ API endpoint `/v1/user/info` — đây chính là API mà Rophim dùng để lấy thông tin người dùng.
+3. **Sửa đổi response** trước khi trang web kịp đọc, thay đổi các trường quan trọng:
+   - `is_vip`: `false` → `true` *(kích hoạt VIP)*
+   - `role`: `"user"` → `"vip"` *(nâng cấp vai trò)*
+   - `vip_expires_at`: set thời hạn + 10 năm *(VIP "vĩnh viễn")*
+   - `coin_balance`: → `999,999,999` *(coin vô hạn)*
+
+4. Ghi đè `responseText` và `response` bằng `Object.defineProperty` — để khi trang web đọc response, nó nhận được **dữ liệu đã bị chỉnh sửa**, hoàn toàn "trong suốt" (transparent) và không gây lỗi.
+
+### 🔴 Easter Egg: Quyền Admin
+
+Phần thú vị nhất: nếu thay `data.result.role` thành `"admin"`, giao diện sẽ **mở khóa luôn các chức năng quản trị** — bao gồm khả năng **ghim** và **xoá bình luận** của người khác. Điều này cho thấy toàn bộ hệ thống phân quyền (authorization) được xử lý hoàn toàn ở phía client mà không có cơ chế bảo vệ nào phía server.
+
+> ⚠️ Đây là một bài học kinh điển: **Không bao giờ tin tưởng dữ liệu từ client.** Authorization luôn phải được enforce phía server.
+
+---
+
+## 🔬 Source Code (Chưa mã hóa)
+
+File [`source.js`](./source.js) — source code gốc, sạch sẽ, chưa qua bất kỳ layer obfuscation nào:
+
+```javascript
+// ==UserScript==
+// @name         Rophim Full VIP
+// @namespace    http://tampermonkey.net/
+// @version      1.1
+// @description  Bypass VIP + Coin trên Rophim
+// @author       FireT
+// @match        *://www.rophim.me/*
+// @run-at       document-start
+// @grant        none
+// ==/UserScript==
+
+(function () {
+    // Lưu lại reference gốc của XMLHttpRequest
+    const open = XMLHttpRequest.prototype.open;
+    const send = XMLHttpRequest.prototype.send;
+
+    // Hook vào .open() để "ghi nhớ" URL của mỗi request
+    XMLHttpRequest.prototype.open = function (method, url) {
+        this._url = url;
+        return open.apply(this, arguments);
+    };
+
+    // Hook vào .send() để can thiệp response
+    XMLHttpRequest.prototype.send = function () {
+        this.addEventListener('load', function () {
+            try {
+                // Chỉ target endpoint lấy thông tin user
+                if (this._url.includes("/v1/user/info")) {
+                    let data = JSON.parse(this.responseText);
+
+                    // 🔑 Sửa đổi các trường phân quyền
+                    data.result.is_vip = true;              // Kích hoạt VIP
+                    data.result.role = "vip";               // Nâng role thành VIP
+                    // data.result.role = "admin";          // 👀 Thử đổi thành admin xem...
+                    data.result.vip_expires_at = Date.now() + 10 * 365 * 24 * 60 * 60 * 1000;  // +10 năm
+                    data.result.coin_balance = 999999999;   // Coin vô hạn
+                    data.result.name = "🔥FireT🔥";
+
+                    // Ghi đè response — trang web sẽ đọc được data đã sửa
+                    Object.defineProperty(this, 'responseText', { value: JSON.stringify(data) });
+                    Object.defineProperty(this, 'response', { value: JSON.stringify(data) });
+                }
+            } catch (e) {
+                console.error("Fake VIP Error:", e);
+            }
+        });
+        return send.apply(this, arguments);
+    };
+})();
+```
+
+> 📌 Toàn bộ chỉ ~30 dòng code thực thi. Đơn giản, nhưng hiệu quả đáng sợ.
+
+### File `rophim_vip.js` — Phiên bản đã mã hóa
+
+File [`rophim_vip.js`](./rophim_vip.js) là phiên bản obfuscated (mã hóa) của source code trên — được dùng trong giai đoạn Rophim còn hoạt động. Kỹ thuật obfuscation ở đây sử dụng **JSFuck-style encoding** — biến toàn bộ code thành tổ hợp các ký tự `[]`, `()`, `+`, `!` rồi eval bằng chính JavaScript engine.
+
+Mục đích của việc mã hóa ban đầu là để **bảo vệ logic script** — vì lúc đó mình chưa có ý định public source. Mình có gắn kèm một URL key bên trong bản mã hóa, phòng trường hợp cần **vô hiệu hóa script từ xa** nếu có vấn đề phát sinh. Nắm đằng chuôi bao giờ cũng tốt hơn, nhỉ? 😏
+
+---
+
+## 🌐 Phạm vi ảnh hưởng
+
+Cơ chế khai thác này **không chỉ giới hạn ở Rophim**. Bất kỳ nền tảng nào dựa vào response API phía client để phân quyền đều có thể bị ảnh hưởng tương tự.
+
+> **Lưu ý**: Cơ chế hoạt động tương tự cũng đã được xác nhận trên nền tảng **Rổ Bóng (robong)** — một hệ thống có kiến trúc phân quyền client-side gần như y hệt.
+
+---
+
+## 🛡️ Bài học bảo mật (Dành cho Developers)
+
+| ❌ Sai | ✅ Đúng |
+|--------|---------|
+| Kiểm tra quyền ở client | Kiểm tra quyền ở **server** (middleware/guard) |
+| Tin tưởng response API không bị sửa | **Validate** quyền ở mọi endpoint cần bảo vệ |
+| Chỉ ẩn UI để hạn chế quyền | **Enforce** quyền ở tầng business logic |
+| Dùng obfuscation để bảo vệ logic | Obfuscation ≠ Security, chỉ là **delay** |
+
+### Recommendations
+1. **Server-Side Authorization**: Mọi action nhạy cảm (xem VIP content, admin actions) phải được validate phía server bằng session/token, không phải bằng field trong response.
+2. **Principle of Least Privilege**: Chỉ trả về thông tin cần thiết trong API response. Không expose trường `role` hay `is_vip` nếu client không cần dùng trực tiếp.
+3. **Response Integrity**: Cân nhắc sử dụng signed response hoặc checksum nếu dữ liệu response có tính nhạy cảm cao.
+
+---
+
+## ⚙️ Cách sử dụng (Lưu trữ)
+
+> ⚠️ **Rophim đã ngừng hoạt động.** Phần này chỉ để lưu trữ cho mục đích tham khảo.
+
+1. Cài đặt [Tampermonkey](https://www.tampermonkey.net/) trên trình duyệt.
+2. Tạo script mới, paste nội dung file `source.js` vào.
+3. Truy cập Rophim, đăng nhập, và reload trang.
+
+---
+
+## 💭 Lời kết
+
+Thật sự tiếc khi Rophim đã dừng hoạt động. Nói không ngoa, đây là lần đầu mình thấy một trang phim "không chính thống" mà vận hành **bài bản, chỉnh chu** đến vậy — từ hệ thống thanh toán, VIP, coin, cho đến UI/UX đều ở một level hoàn toàn khác. Mình genuinely respect cái tâm của team phát triển Rophim.
+
+Phát hiện bug này cũng hoàn toàn tình cờ — vọc vạch lúc rảnh, kiểu "ơ, cái gì đây?", rồi thấy bất ngờ vì một hệ thống chỉnh chu đến vậy lại dính lỗ hổng khá cơ bản trong security architecture. Không ai hoàn hảo cả, và đó cũng là lý do ngành security tồn tại, phải không nào? 🙂
+
+Dù sao, cũng coi như một chương đã khép lại. Chúc team Rophim (nếu có đọc được) sẽ mang những bài học này vào những dự án tiếp theo, và chúc anh em dev ngoài kia luôn nhớ: **"Never trust the client."** ✌️
+
+---
 
 ## 👨‍💻 Tác giả
-- **FireT** ([@firetofficial](https://github.com/firetofficial))
 
-## 💖 Hỗ trợ
-Nếu bạn thấy dự án này hữu ích, hãy để lại một ⭐ trên GitHub để ủng hộ mình nhé!  
+**FireT** · [@firetofficial](https://github.com/firetofficial) · [Telegram](https://t.me/firet_official)
 
-**Từ khóa**: rổ phim VIP miễn phí, rophim VIP free, bypass rophim, rophim no ads, rophim không quảng cáo.
+## ⭐ Support
+
+Nếu bạn thấy bài phân tích này hữu ích hoặc học được điều gì đó, hãy drop một ⭐ trên repo nhé — mình sẽ tiếp tục chia sẻ thêm nhiều case study thú vị khác!
+
+---
+
+<p align="center">
+  <sub>⚠️ <b>Disclaimer</b>: Dự án này được public hoàn toàn vì mục đích <b>nghiên cứu bảo mật và học tập</b>. Tác giả không chịu trách nhiệm cho bất kỳ hành vi sử dụng sai mục đích nào. Nghiêm cấm sử dụng cho mục đích thương mại.</sub>
+</p>
